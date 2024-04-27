@@ -1,0 +1,20 @@
+{
+  "name": "mongo-2-elastic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx -y bun ./index.ts",
+    "build": "npx -y bun build ./index.ts --outdir ./dist --target bun"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "mongodb": "^6.5.0"
+  }
+}
