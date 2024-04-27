@@ -1,4 +1,5 @@
 # mongo-2-elastic
+** Project is still under development. Don't forget to STAR it.
 
 To install dependencies:
 
